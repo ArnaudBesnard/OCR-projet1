@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WebAgency - Votre agence de communication sur le Web</title>
+  <!--Chargement de la feuille de style de base-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <!--Chargement de la feuille de style pour le awesome en cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="description" content="Agence de communication et de création de sites web basée à Paris spécialisée dans la visibilité sur la toile" />
+  <meta name="keywords" content="sites web, seo, ux design, ui design, communication, développement" />
+  <meta name="robots" content="all" />
+  <meta name="language" content="fr" />
+  <link rel="icon" type="image/png" href="images/ico/apple-touch-icon-57-precomposed.png" />
+  <!--Twitter card-->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@webagency" />
+  <meta name="twitter:description" content="WebAgency. Découvrez les services que nous proposons, référencement, création, conseil" />
+  <meta name="twitter:image" content="http://arnaudbesnard.fr/openclassrooms/1webagency/images/logo.png" />
+  <meta name="twitter:title" content="L'agence de tous vos projets" />
+  <!--Opengraph - Facebook-->
+  <meta property="og:title" content="WebAgency, l'agence de tous vos projets"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://arnaudbesnard.fr/openclassrooms/1webagency/"/>
+  <meta property="og:image" content="http://arnaudbesnard.fr/openclassrooms/1webagency/images/logo.png"/>
+  <meta property="og:description" content="WebAgency. Découvrez les services que nous proposons, référencement, création, conseil"/>
+</head>
+<body>
+<!--HEADER-->  
+	<header>
+		<div id="logo"><a href="#"><img src="images/logo.png" alt="Logo principal de la WebAgency"/></a></div>
+		  <nav>
+			 <ul>
+				  <li><a href="#">Accueil</a></li>
+				  <li><a href="#services">Services</a></li>
+				  <li><a href="#projets">Portfolio</a></li>
+				  <li><a href="#contact">Contact</a></li>
+			 </ul>
+		  </nav>
+	</header>
+<!--SECTION SLIDE IMAGE-->
+	<section class="slider_container">
+          <div id="text_slide"><h1><span id="titre_slide">WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                <p id="small_text_slide">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                <p><a href="#services">Plus d'infos</a></p>
+          </div>
+      <!-- Conteneur -->
+      <div class="slider">
+          <!-- Contrôleurs -->
+          <input class="slider__controller" type="radio" name="slider-controller" id="slide-1" checked="true" />
+          <input class="slider__controller" type="radio" name="slider-controller" id="slide-2" />
+        <!-- Conteneur intérieur -->
+        <div class="slider__inner">
+          <!-- Image 1 -->
+          <figure class="slide">
+              <img class="slide__image slide__image--1" src="images/slider/bg1.jpg" alt="Premiere image du slide">
+          </figure>
+          <!-- Image 2 -->
+          <figure class="slide">
+              <img class="slide__image slide__image--2" src="images/slider/bg2.jpg" alt="Deuxieme image du slide">
+          </figure>
+        </div>
+        <!-- Interface -->
+        <div class="slider__nav">
+          <label class="slider__nav__chevron" for="slide-1"></label>
+          <label class="slider__nav__chevron" for="slide-2"></label>
+        </div>
+    </div>
+   </section>
+<!--SECTION TITRE SERVICES-->
+  <section id="services">
+      <div id="titre_services">
+    		<h2>NOS SERVICES</h2>
+          <hr />
+    			<p>WebAgency est une agence de <strong>création de sites web</strong> spécialisée dans un grand nombre de domaines garantissant ainsi <strong>votre réussite sur la toile.</strong></p>
+    	</div>
+  </section>
+<!--SECTION SERVICES-->
+  <section id="container_services">
+   		<img src="images/main-feature.png" id="imgfeature" alt="Ecran visuel de nos services" />
+    	<div class="services_description">
+    		  <h3>UX DESIGN</h3>
+     			<div class="block_text"><i class="fa fa-line-chart" aria-hidden="true"></i>
+            <p>La WebAgency est à votre écoute afin de réaliser un site web complet, en suivant le cahier des charges établi à l'avance. Nous vous proposons également des <strong>solutions adaptées à votre secteur d'activité.</strong> </p></div>
+    		  <h3>UI DESIGN</h3>
+          <div class="block_text"><i class="fa fa-cubes" aria-hidden="true"></i>
+    			  <p>Nous réalisons votre projet avec le respect de la charte graphique de votre entreprise mais également afin de faciliter la navigation pour l'utilisateur final, Tous nos sites sont conçus afin d'être <strong>responsives.</strong></p></div>
+    		  <h3>SEO</h3>
+          <div class="block_text"><i class="fa fa-pie-chart" aria-hidden="true"></i>
+    			  <p>Parce qu'un site web sans visibilité ne sert pas à grand chose, <strong>nos experts SEO</strong> vous garantissent une visibilité sur les moteurs de recherche, faites ainsi la différence avec vos concurrents !</p></div>
+    	</div>
+  </section>
+<!--SECTION PROJETS-->
+  <section id="projets">
+    	<div id="titre_projets">
+    		  <h2>NOS PROJETS</h2>
+          <hr />
+    			<p>Voici quelques exemples de nos réalisations et de notre savoir faire.<br />
+			   	   Rejoignez-nous et faites partie de cet album !</p>
+    	</div>
+      <!--Petit menu des projets-->
+    	<nav>
+        <div class="menu_projet">
+    		  <ul>
+    			 <li><a  href="#allworks">AllWorks</a></li>
+    			 <li><a href="#creative">Creative</a></li>
+    			 <li><a href="#corporate">Corporate</a></li>
+    			 <li><a href="#portfolio">Portfolio</a></li>
+    		  </ul>
+        </div>
+    	</nav>
+      <!--Affichage des items des projets-->
+   		<div class="projets_album">
+   			<figure>
+          <img src="images/portfolio/01.jpg" class="img_projet" alt="item du projet 1" />
+          <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Le lunettier opticien</div></div>
+        </figure>
+   			<figure>
+   				<img src="images/portfolio/02.jpg" alt="item du projet 2"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Les lapins d'épice</div></div>  
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/03.jpg" alt="item du projet 3"/>
+          <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Original Pompadour</div></div>    
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/04.jpg" alt="item du projet 4"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Le livre d'Antan</div></div>   
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/05.jpg" alt="item du projet 5"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">La fée tes courses</div></div>   
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/06.jpg" alt="item du projet 6"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">L'architect de l'ouest</div></div>   
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/07.jpg" alt="item du projet 7"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Voyage la fusée</div></div>  
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/08.jpg" alt="item du projet 8"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Au fourre tout</div></div>  
+   			</figure>
+   		</div>
+    </section>
+<!--SECTION CONTACT-->
+    <section id="contact">
+      <!--Intégration de la carte google map-->
+    	<iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2156022977942!2d2.3476356158409803!3d48.87316630761995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1520542718327" allowfullscreen></iframe>
+    	<!--Formulaire de contact-->
+      <form method="post" action="#">
+    		<div id="form_contact">
+    			<h3>Contact infos</h3>
+    				<p id="adresse"><span id="titre_adresse">WebAgency SAS</span><br />25 rue d'Hauteville 75010 Paris<br />Tel : 01 02 03 04 05</p>
+    				<input  type="text"  name="name" id="name" placeholder="Votre nom" />
+    				<input type="text"  name="email" id="email" placeholder="Email" />
+    				<input type="text"  name="subject" id="subject" placeholder="Sujet" />
+    				<textarea name="message"  id="message" placeholder="Message" rows="5"></textarea>
+    					<p><a href="#" class="bouton">Envoyer</a></p>
+    		</div>
+    	</form>
+    </section>
+    <footer>
+      <p id="copyright">Copyright 2018  WebAgency SARL  Arnaud Besnard</p>
+      <p>Suivez-nous sur nos différents réseaux sociaux :</p>
+      <div id="reseaux_sociaux">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-google"></span>
+        <span class="fa fa-rss"></span>
+      </div>
+    </footer>
+</body>
+</html>
